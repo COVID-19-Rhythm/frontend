@@ -1,12 +1,12 @@
 import React from "react";
-import Hoem from "../Home/index";
+import Home from "../Home/Home";
 import AboutSummary from "../AboutSummary/AboutSummary";
-import Research from "../Research/index";
+import Research from "../Research/Research";
 
 function Index() {
   return (
     <div>
-      <Hoem />
+      <Home />
       <AboutSummary />
       <Research />
     </div>
