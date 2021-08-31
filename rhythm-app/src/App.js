@@ -3,13 +3,15 @@ import { Route, Switch } from "react-router-dom";
 import Landing from "./components/Landing/index";
 import Contact from "./components/Contact/index";
 import ResearchLanding from "./components/ResearchLanding/ResearchLanding";
-import About from "./components/About/About";
 import Research from "./components/Research/Research";
+import About from "./components/About/About";
 import Dashboard from "./components/Dashboard/Dashboard";
+import NavBar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Switch>
         <Route exact path="/" render={() => <Landing />} />
         <Route exact path="/about" render={() => <About />} />
