@@ -1,0 +1,34 @@
+.researchParent {
+  border-style: solid;
+  height: 100vh;
+}
+
+.research {
+  border-style: solid;
+  color: red;
+}
+
+.researhChildParent {
+  display: flex;
+  height: 100%;
+}
+
+.researchChild {
+  border-style: solid;
+  color: green;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91.5%;
+}
+
+.researchChild2 {
+  border-style: solid;
+  color: blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91.5%;
+}
