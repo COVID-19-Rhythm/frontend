@@ -5,12 +5,11 @@ import Contact from "./components/Contact/index";
 import About from './components/About/About';
 import Research from './components/Research/Research'
 import Dashboard from './components/Dashboard/Dashboard';
-import NavBar from './components/Navbar/Navbar';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
       <Switch>
         <Route exact path="/" render={()=>(
           <Landing/>

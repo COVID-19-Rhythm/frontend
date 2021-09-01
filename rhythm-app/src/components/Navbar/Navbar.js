@@ -1,9 +1,10 @@
 import React from 'react'
 import {Container, Navbar, Nav} from 'react-bootstrap'
+import './Navbar.css'
 function NavBar() {
     return (
         <div>
-        <Navbar bg="light" expand="lg" className="navbar">
+        <Navbar expand="lg" className="navbar">
             <Container>
             <Navbar.Brand href="/">
             <img
