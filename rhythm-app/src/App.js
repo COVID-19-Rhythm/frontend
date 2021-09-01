@@ -15,8 +15,8 @@ function App() {
         <Route exact path="/" render={() => <Landing />} />
         <Route exact path="/about" render={() => <About />} />
         <Route exact path="/research" render={() => <Research />} />
-        <Route exact path="/research%20" render={() => <ResearchLanding />} />
         <Route exact path="/dashboard" render={() => <Dashboard />} />
+        <Route exact path="/contact" render={() => <Contact />} />
       </Switch>
     </div>
   );
