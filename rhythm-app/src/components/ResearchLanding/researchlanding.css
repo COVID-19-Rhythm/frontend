@@ -1,0 +1,63 @@
+.researchlandingparent {
+  /* background: url(../images/cool-background.svg); */
+  /* transform: scaleX(-1); */
+  border-style: solid;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Poppins", sans-serif;
+}
+
+.researchLandingParagraph {
+  border-style: solid;
+  color: orange;
+  display: flex;
+  width: 50%;
+  margin: 60px;
+  /* height: inherit; */
+}
+
+.researchLandingParagraph2 {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+.dashboardImage {
+  width: 45%;
+}
+
+.researchLandingParagraph2 p {
+  border-style: solid;
+  color: pink;
+  text-align: left;
+  text-indent: 2em;
+  flex-wrap: wrap;
+}
+
+.researchButton {
+  background-color: #56cfe1;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.researchButton:hover {
+  background-color: #5e60ce;
+  transition: width 2s linear 1s ease in;
+  cursor: pointer;
+}
+.researchButtonlink {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+}

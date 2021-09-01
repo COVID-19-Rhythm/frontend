@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./aboutSummary.css";
 
 function AboutSummary() {
@@ -11,6 +12,7 @@ function AboutSummary() {
           Rhythm tracks your heart rate while you sleep. Through pattern
           analysis, Rhythm can detect if you have COVID-19
         </p>
+        <button>{<Link to="/about">About</Link>}</button>
       </div>
     </div>
   );

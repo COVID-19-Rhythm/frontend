@@ -20,7 +20,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: left;
+  text-indent: 2em;
   height: 91.5%;
+}
+
+.researchChild p {
+  width: 90%;
 }
 
 .researchChild2 {
@@ -28,6 +35,7 @@
   color: blue;
   width: 100%;
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   height: 91.5%;
