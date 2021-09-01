@@ -3,7 +3,7 @@ import Home from "../Home/Home";
 import AboutSummary from "../AboutSummary/AboutSummary";
 import ResearchLanding from "../ResearchLanding/ResearchLanding";
 
-function Index() {
+function Landing() {
   return (
     <div>
       <Home />
@@ -13,4 +13,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Landing;

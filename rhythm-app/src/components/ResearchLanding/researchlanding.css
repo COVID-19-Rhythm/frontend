@@ -53,6 +53,7 @@
 
 .researchButton:hover {
   background-color: #5e60ce;
+  text: white;
   transition: width 2s linear 1s ease in;
   cursor: pointer;
 }

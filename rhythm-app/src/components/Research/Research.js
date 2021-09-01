@@ -1,9 +1,11 @@
 import React from "react";
+import ResearchHeader from "../ResearchHeader/ResearchHeader";
 import "./research.css";
 
 function Research() {
   return (
     <div className="researchParent">
+      <ResearchHeader />
       <div className="research">
         <h1>Research</h1>
       </div>
