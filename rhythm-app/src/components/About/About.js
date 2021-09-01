@@ -1,11 +1,9 @@
 import React from "react";
 import './about.css'
 import {Row, Column, Container, Col, Image} from 'react-bootstrap';
-import NavBar from '../Navbar/Navbar';
 function About() {
   return (
     <div className="about-parent">
-      <NavBar/>
       <Row>
         <Col className="col=md-6">
           <div>
