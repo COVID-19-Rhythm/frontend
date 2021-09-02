@@ -1,22 +1,28 @@
 .summaryParent {
   /* display:flex; */
-  min-height: 100vh;
+  min-width:100%;
   height:100%;
   background-color: #DFF1F2;
   padding-left:6vw;
   padding-top:4vw;
 }
+.summary{
+  width:40%;
+  margin:0;
+}
 
 .summaryParent h1 {
   color: #056D73;
-  margin-bottom: 4vw
+  margin-bottom: 3vw;
+
 }
 .summaryParent p {
   font-family: "Poppins", sans-serif;
   text-align: left;
-  font-size: 5vw;
-  width:60%;
+  font-size: 4vw;
+  width:100%;
   color:#056D73;
+  margin:0;
 }
 .abtsum-title{
   font-family: "Poppins", sans-serif;
@@ -36,4 +42,26 @@
   font-size:30px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+}
+.watch-container{
+  width:15%;
+  margin:0;
+  padding:0;
+  margin:4vw;
+}
+.phone-container{
+  width:20%;
+  margin:0;
+  padding:0;
+  margin:4vw;
+}
+img{
+  display:inline-block;
+}
+.row-group{
+  display: flex;
+  flex: row;
+  justify-content: left;
+  width:100%
+  
 }
