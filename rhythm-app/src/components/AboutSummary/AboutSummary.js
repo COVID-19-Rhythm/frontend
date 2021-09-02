@@ -7,7 +7,6 @@ function AboutSummary() {
     <div>
       <div className="summaryParent">
         <h1 className="abtsum-title">Meet Rhythm</h1>
-        <p>Healthcare while you sleep</p>
         <p>
           Predict COVID-19 before any symptoms appear
         </p>

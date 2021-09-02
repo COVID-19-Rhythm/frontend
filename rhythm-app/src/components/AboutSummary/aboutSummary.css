@@ -1,8 +1,24 @@
 .summaryParent {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #DFF1F2;
+  padding-left:6vw;
+  padding-top:4vw;
 }
 
 .summaryParent h1 {
-  color: #056D73
+  color: #056D73;
+  margin-bottom: 4vw
+}
+.summaryParent p {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 5vw;
+  width:60%;
+  color:#056D73;
+}
+.abtsum-title{
+  font-family: "Poppins", sans-serif;
+  font-size:8vw;
+  text-align: left;
+  font-weight: 1000;
 }
