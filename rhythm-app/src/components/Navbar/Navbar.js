@@ -1,12 +1,12 @@
-import React from 'react'
-import {Container, Navbar, Nav} from 'react-bootstrap'
-import './Navbar.css'
+import React from "react";
+import { Container, Navbar, Nav } from "react-bootstrap";
+import "./Navbar.css";
 const NavbarStyles = {
-    navlink: {
-        color:"white",
-        margin:"1rem"
-    }
-}
+  navlink: {
+    color: "white",
+    margin: "1rem",
+  },
+};
 function NavBar() {
     return (
         <div>
@@ -30,4 +30,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default NavBar;
