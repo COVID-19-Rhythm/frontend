@@ -65,22 +65,24 @@ function NavBar() {
             </svg>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/about" style={NavbarStyles.navlink}>
-                About
-              </Nav.Link>
-              <Nav.Link href="/research" style={NavbarStyles.navlink}>
-                Research
-              </Nav.Link>
-              <Nav.Link href="/contact" style={NavbarStyles.navlink}>
-                Contact
-              </Nav.Link>
-              <Nav.Link href="/dashboard" style={NavbarStyles.navlink}>
-                Dashboard
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+          <div>
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="/about" style={NavbarStyles.navlink}>
+                  About
+                </Nav.Link>
+                <Nav.Link href="/research" style={NavbarStyles.navlink}>
+                  Research
+                </Nav.Link>
+                <Nav.Link href="/contact" style={NavbarStyles.navlink}>
+                  Contact
+                </Nav.Link>
+                <Nav.Link href="/dashboard" style={NavbarStyles.navlink}>
+                  Dashboard
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </div>
         </Container>
       </Navbar>
     </div>

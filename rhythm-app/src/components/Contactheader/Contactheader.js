@@ -1,6 +1,5 @@
 import React from "react";
 import "./contactheader.css";
-import blue from "../images/blue.png";
 
 function Contactheader() {
   return (

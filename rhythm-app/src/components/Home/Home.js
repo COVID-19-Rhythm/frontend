@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../images/logo3.png";
 import phone from "../images/phone2.png";
 import "./home.css";
-
+import Particles from 'react-particles-js';
 function Home() {
   return (
     <div>
@@ -36,6 +36,7 @@ function Home() {
         <div>
           
         </div>
+        <Particles/>
       </div>
     </div>
   );
