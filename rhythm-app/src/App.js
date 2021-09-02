@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import Landing from "./components/Landing/Landing";
-import Contact from "./components/Contact/index";
+import Contact from "./components/Contact/Contact";
 import About from './components/About/About';
 import Research from './components/Research/Research'
 import Dashboard from './components/Dashboard/Dashboard';

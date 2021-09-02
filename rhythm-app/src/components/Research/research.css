@@ -14,29 +14,54 @@
 }
 
 .researchChild {
-  border-style: solid;
-  color: green;
+  /* border-style: solid;
+  color: green; */
+  background: linear-gradient(rgba(5, 109, 115, 1), rgba(5, 109, 115, 29%));
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   text-align: left;
   text-indent: 2em;
-  height: 91.5%;
+  height: 100%;
 }
 
 .researchChild p {
-  width: 90%;
+  width: 100%;
+  color: white;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 
 .researchChild2 {
-  border-style: solid;
-  color: blue;
+  /* border-style: solid;
+  color: blue; */
   width: 100%;
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
   align-items: center;
-  height: 91.5%;
+  /* height: 91.5%; */
+  height: 100%;
+}
+
+.greyBackground {
+  height: 100%;
+  /* border-style: solid;
+  color: blue; */
+  background: rgba(45, 45, 45, 52%);
+  justify-content: center;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.greyBackground h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.watchImage {
+  width: inherit;
+  height: 100%;
+  object-fit: cover;
 }
