@@ -1,10 +1,10 @@
 .researchParent {
-  border-style: solid;
+  /* border-style: solid; */
   height: 100vh;
 }
 
 .research {
-  border-style: solid;
+  /* border-style: solid; */
   color: red;
 }
 
@@ -30,7 +30,8 @@
   color: white;
   text-align: left;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 2vw;
+  padding-left: 0.75vw;
 }
 
 .researchChild2 {
@@ -39,8 +40,6 @@
   width: 100%;
   display: flex;
   /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
   /* height: 91.5%; */
   height: 100%;
 }
@@ -52,12 +51,16 @@
   background: rgba(45, 45, 45, 52%);
   justify-content: center;
   overflow: scroll;
-  padding: 20px;
+  padding: 1vw;
+  margin: 0 auto;
 }
 
 .greyBackground h1 {
   color: white;
   font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
 }
 
 .watchImage {
