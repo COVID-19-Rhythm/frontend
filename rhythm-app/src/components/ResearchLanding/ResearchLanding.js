@@ -1,31 +1,21 @@
 import React from "react";
 import "./researchlanding.css";
 import { Link } from "react-router-dom";
-import other from "../images/other.png";
+import other from "../images/stanford.png";
 
 function ResearchLanding() {
   return (
     <div className="researchlandingparent">
-      <img src={other} alt="dashboard" className="dashboardImage" />
       <div className="researchLandingParagraph">
         <div className="researchLandingParagraph2">
+          <img src={other} alt="stanford" className="stanfordimage" />
           <p>
-            Based on research supported by Stanford and Mount Sinai Hospital in
-            New York City, Rhythm was created by students, engineers and avid
-            researchers.
+            Learn more about the Stanford study that made it all possible...
           </p>
-          <p>
-            To bridge the digital divide between disease detection and
-            technology, Rhythm detects COVID-19 in asymptomatic patients days
-            before symptoms have onset.
-          </p>
-          <button className="researchButton">
-            {
-              <Link className="researchButtonlink" to="/research">
-                Current Research
-              </Link>
-            }
-          </button>
+
+          <Link className="researchButtonlink" to="/research">
+            {<button className="researchButton">Explore the Research</button>}
+          </Link>
         </div>
       </div>
     </div>

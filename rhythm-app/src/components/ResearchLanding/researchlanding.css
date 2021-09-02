@@ -1,20 +1,21 @@
 .researchlandingparent {
-  /* background: url(../images/cool-background.svg); */
-  /* transform: scaleX(-1); */
-  border-style: solid;
+  background: url(../images/woman.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
   height: 100vh;
+
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
   font-family: "Poppins", sans-serif;
 }
 
 .researchLandingParagraph {
-  border-style: solid;
-  color: orange;
+  background: rgba(45, 45, 45, 60%);
   display: flex;
   width: 50%;
-  margin: 60px;
-  /* height: inherit; */
+  height: inherit;
 }
 
 .researchLandingParagraph2 {
@@ -26,34 +27,38 @@
   align-content: center;
   margin: 0 auto;
 }
-.dashboardImage {
-  width: 45%;
-}
 
 .researchLandingParagraph2 p {
-  border-style: solid;
-  color: pink;
+  /* border-style: solid; */
+  color: white;
+  font-size: 30px;
   text-align: left;
-  text-indent: 2em;
+  width: 75%;
   flex-wrap: wrap;
 }
 
+.stanfordimage {
+  object-fit: contain;
+  width: inherit;
+}
+
 .researchButton {
-  background-color: #56cfe1;
+  background-color: #056d73;
   border: none;
+  border-radius: 15px;
   color: white;
   padding: 10px 15px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   transition: 0.3s;
   text-transform: uppercase;
 }
 
 .researchButton:hover {
   background-color: #5e60ce;
-  text: white;
+  color: white;
   transition: width 2s linear 1s ease in;
   cursor: pointer;
 }
