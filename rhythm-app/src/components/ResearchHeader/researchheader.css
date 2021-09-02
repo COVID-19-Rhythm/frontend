@@ -14,8 +14,8 @@
 .covidImage p {
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 40px;
-  padding-right: 20px;
+  font-size: 4vw;
+  padding-right: 2vw;
   display: flex;
   width: 50%;
   flex-direction: column;

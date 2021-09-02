@@ -9,13 +9,15 @@ function ResearchLanding() {
       <div className="researchLandingParagraph">
         <div className="researchLandingParagraph2">
           <img src={other} alt="stanford" className="stanfordimage" />
-          <p>
-            Learn more about the Stanford study that made it all possible...
-          </p>
-
-          <Link className="researchButtonlink" to="/research">
-            {<button className="researchButton">Explore the Research</button>}
-          </Link>
+          <div className="realTiredOfThis">
+            <p>
+              Learn more about the Stanford study that made it all possible...
+            </p>
+            <div style={{ padding: ".75vw" }}></div>
+            <Link className="researchButtonlink" to="/research">
+              {<button className="researchButton">Explore the Research</button>}
+            </Link>
+          </div>
         </div>
       </div>
     </div>
