@@ -23,6 +23,7 @@
   width:100%;
   color:#056D73;
   margin:0;
+  padding-bottom:6vh;
 }
 .abtsum-title{
   font-family: "Poppins", sans-serif;
@@ -35,13 +36,20 @@
   float:left;
   width:20vw;
   height:4vw;
-  border-radius:25px;
+  border-radius:15px;
   border-style: none;
   background-color: #056D73;
   color:white;
   font-size:30px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  font-size: 1.5em;
+}
+.about-btn:hover {
+  background-color: #5e60ce;
+  color: white;
+  transition: width 2s linear 1s ease in;
+  cursor: pointer;
 }
 .watch-container{
   width:15%;
@@ -50,13 +58,14 @@
   margin:4vw;
 }
 .phone-container{
-  width:20%;
+  width:15%;
   margin:0;
   padding:0;
   margin:4vw;
 }
 img{
-  display:inline-block;
+  width:100%;
+  object-fit: contain;
 }
 .row-group{
   display: flex;

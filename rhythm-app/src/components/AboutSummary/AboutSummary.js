@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 import "./aboutSummary.css";
 import watchbetter from '../images/watch_better.png'
 import phone from '../images/iphonegold.png'
+
 function AboutSummary() {
+
   return (
     <div className="summaryParent">
+      {/* <div>{image}</div> */}
+      {/* <Particles/> */}
       <h1 className="abtsum-title">Meet Rhythm</h1>
       <div className="row-group" >
       
@@ -14,19 +18,7 @@ function AboutSummary() {
           Predict COVID-19 before any symptoms appear
         </p>
         <a href="/about">
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <button class="about-btn" to="/about">{<Link to="/about"></Link>}Learn More</button>
+        <button className="about-btn" to="/about">{<Link to="/about"></Link>}Learn More</button>
         </a>
         {/* <button class="about-btn" to="/about">{<Link to="/about"></Link>}Learn More</button> */}
       </div>
