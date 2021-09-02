@@ -1,3 +1,4 @@
-.landing {
-    background: linear-gradient(#43008b, #236cc4, #7be4f3);
+.landing-main {
+    background: linear-gradient(#CAF1F8, #00B4D8, #03045E);
+    min-width: 100vh;
 }

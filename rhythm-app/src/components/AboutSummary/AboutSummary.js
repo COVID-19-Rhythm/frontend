@@ -6,11 +6,10 @@ function AboutSummary() {
   return (
     <div>
       <div className="summaryParent">
-        <h1>Rhythm</h1>
+        <h1 className="abtsum-title">Meet Rhythm</h1>
         <p>Healthcare while you sleep</p>
         <p>
-          Rhythm tracks your heart rate while you sleep. Through pattern
-          analysis, Rhythm can detect if you have COVID-19
+          Predict COVID-19 before any symptoms appear
         </p>
         <button>{<Link to="/about">About</Link>}</button>
       </div>
