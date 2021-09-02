@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 function About() {
   return (
     <div className="about-parent">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Row>
         <Col className="col=md-6">
           <div>

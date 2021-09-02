@@ -1,5 +1,7 @@
 .summaryParent {
+  /* display:flex; */
   min-height: 100vh;
+  height:100%;
   background-color: #DFF1F2;
   padding-left:6vw;
   padding-top:4vw;
@@ -21,4 +23,17 @@
   font-size:8vw;
   text-align: left;
   font-weight: 1000;
+}
+.about-btn {
+  width:5vw;
+  float:left;
+  width:20vw;
+  height:4vw;
+  border-radius:25px;
+  border-style: none;
+  background-color: #056D73;
+  color:white;
+  font-size:30px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }

@@ -2,9 +2,11 @@ import React from "react";
 import ResearchHeader from "../ResearchHeader/ResearchHeader";
 import watch from "../images/watch.png";
 import "./research.css";
-
+import Navbar from '../Navbar/Navbar'
 function Research() {
   return (
+    <div>
+      <Navbar/>
     <div className="researchParent">
       <ResearchHeader />
       {/* <div className="research">
@@ -37,6 +39,7 @@ function Research() {
         <div className="researchChild2">
           <img src={watch} className="watchImage" />
         </div>
+      </div>
       </div>
     </div>
   );

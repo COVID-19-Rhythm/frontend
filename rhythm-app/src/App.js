@@ -7,11 +7,11 @@ import Research from './components/Research/Research'
 import Dashboard from './components/Dashboard/Dashboard';
 import ResearchLanding from "./components/ResearchLanding/ResearchLanding";
 
-
+import Navbar from './components/Navbar/Navbar'
 function App() {
   return (
     <div className="App">
-      
+      <Navbar/>
       <Switch>
         <Route exact path="/" render={() => <Landing />} />
         <Route exact path="/about" render={() => <About />} />

@@ -7,7 +7,6 @@ import './landing.css'
 function Landing() {
   return (
     <div className="landing-main">
-      <Navbar/>
       <Home />
       <AboutSummary />
       <ResearchLanding />
