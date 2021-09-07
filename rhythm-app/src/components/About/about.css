@@ -1,5 +1,29 @@
 .about-parent {
-    background: linear-gradient(#43008b, #7be4f3);
-    min-height: 100vh;
-    color: white;
+    padding-top:10em;
+    background: linear-gradient(#CAF1F8, #00B4D8, #CAF1F8);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
 }
+.header {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 5vw;
+    width:50%;
+    text-align: left;
+    
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 2vw;
+    text-align: left;
+}
+.image-test {
+   /* object-fit: cover; */
+   max-width: 100%;
+        max-height: 100%;
+        display: block;
+}
+
