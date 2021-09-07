@@ -1,6 +1,7 @@
 .about-parent {
     padding-top:10em;
     background: linear-gradient(#CAF1F8, #00B4D8, #CAF1F8);
+    min-height:100vh;
     /* display: flex; */
     /* flex-wrap: wrap; */
     
@@ -8,9 +9,10 @@
 .header {
     font-family: "Poppins", sans-serif;
     color: white;
-    font-size: 5vw;
+    font-size: 4vw;
     width:50%;
     text-align: left;
+    padding-bottom: 1em;
     
 }
 
@@ -19,11 +21,14 @@ p{
     color: white;
     font-size: 2vw;
     text-align: left;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .image-test {
    /* object-fit: cover; */
-   max-width: 100%;
-        max-height: 100%;
-        display: block;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 

@@ -20,32 +20,34 @@ function About() {
   return (
     <div className="about-parent">
       <Container style={aboutStyle.container}>
-        <Row style={aboutStyle.row}>
-          <h1 className="header">Our Tech is open source and free to use for everyone!</h1>
+      <Row style={aboutStyle.row}>
+          <h1 className="header">Inspiration</h1>
           <br/>
           <Col>
           <p>
-          Our mission is to make COVID testing easier to and more widely available. 
+          We strive to provide easier and faster ways to test for COVID-19 that will keep people safer and healthier.
           </p>
-          </Col>
-          
-          <Col>
-          <Image src={testing} alt="covid test" className="image-test"/>
-          </Col>
-        </Row>
-        <Row style={aboutStyle.row}>
-          <h1>Our Tech is open source and free to use for everyone!</h1>
-          <br/>
-          <Col>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Rhythm is built to help people get more insight into their personal well being and help individuals keep their communities safe.
           </p>
-          </Col>
-          
-          <Col>
           {/* <Image></Image> */}
           </Col>
         </Row>
+        <Row style={aboutStyle.row}>
+          
+          <br/>
+          <Col style={{width:"60%"}}>
+          {/* <p>
+          Our technology is completely free for anyone to use.
+          </p> */}
+          <h1 className="header">Free and Open Source for everyone!</h1>
+          </Col>
+          
+          <Col style={{width:"40%"}}>
+          <Image src={testing} alt="covid test" className="image-test"/>
+          </Col>
+        </Row>
+        
         
       </Container>
     </div>
