@@ -2,7 +2,7 @@
   /* background: linear-gradient(#43008b, #236cc4, #7be4f3); */
   display: flex;
   /* flex-wrap: wrap; */
-  height: 100vh;
+  height: 150vh;
 }
 
 .orientation {
@@ -49,4 +49,8 @@
   font-family: "Poppins", sans-serif;
   color: white;
   font-size: 5vw;
+}
+
+.logoImage {
+  width: 30%;
 }

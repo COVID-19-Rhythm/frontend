@@ -43,7 +43,6 @@
   flex-direction: column;
   text-transform: uppercase;
   color: white;
-  border-style: solid;
   height: 75%;
   background: linear-gradient(rgba(5, 109, 115, 1), rgba(5, 109, 115, 29%));
 }

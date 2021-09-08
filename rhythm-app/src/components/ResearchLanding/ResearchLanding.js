@@ -1,7 +1,7 @@
 import React from "react";
 import "./researchlanding.css";
 import { Link } from "react-router-dom";
-import other from "../images/stanford.png";
+import other from "../images/bird.png";
 
 function ResearchLanding() {
   return (

@@ -48,7 +48,7 @@
 
 .stanfordimage {
   object-fit: contain;
-  width: inherit;
+  width: 30%;
 }
 
 .researchButton {
