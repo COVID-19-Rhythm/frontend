@@ -1,46 +1,45 @@
 .summaryParent {
   /* display:flex; */
-  min-width:100%;
-  height:100%;
-  background-color: #DFF1F2;
-  padding-left:6vw;
-  padding-top:4vw;
+  min-width: 100%;
+  height: 100%;
+  background-color: #dff1f2;
+  padding-left: 6vw;
+  padding-top: 4vw;
 }
-.summary{
-  width:40%;
-  margin:0;
+.summary {
+  width: 40%;
+  margin: 0;
 }
 
 .summaryParent h1 {
-  color: #056D73;
+  color: #056d73;
   margin-bottom: 3vw;
-
 }
 .summaryParent p {
   font-family: "Poppins", sans-serif;
   text-align: left;
   font-size: 4vw;
-  width:100%;
-  color:#056D73;
-  margin:0;
-  padding-bottom:6vh;
+  width: 100%;
+  color: #056d73;
+  margin: 0;
+  padding-bottom: 6vh;
 }
-.abtsum-title{
+.abtsum-title {
   font-family: "Poppins", sans-serif;
-  font-size:8vw;
+  font-size: 8vw;
   text-align: left;
   font-weight: 1000;
 }
 .about-btn {
-  width:5vw;
-  float:left;
-  width:20vw;
-  height:4vw;
-  border-radius:15px;
+  width: 5vw;
+  float: left;
+  width: 20vw;
+  height: 4vw;
+  border-radius: 15px;
   border-style: none;
-  background-color: #056D73;
-  color:white;
-  font-size:30px;
+  background-color: #056d73;
+  color: white;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-size: 1.5em;
@@ -51,26 +50,25 @@
   transition: width 2s linear 1s ease in;
   cursor: pointer;
 }
-.watch-container{
-  width:15%;
-  margin:0;
-  padding:0;
-  margin:4vw;
+.watch-container {
+  width: 15%;
+  margin: 0;
+  /* padding-left: 1vw; */
+  margin: 4vw;
 }
-.phone-container{
-  width:15%;
-  margin:0;
-  padding:0;
-  margin:4vw;
+.phone-container {
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  margin: 4vw;
 }
-img{
-  width:100%;
+img {
+  width: 100%;
   object-fit: contain;
 }
-.row-group{
+.row-group {
   display: flex;
   flex: row;
   justify-content: left;
-  width:100%
-  
+  width: 100%;
 }
