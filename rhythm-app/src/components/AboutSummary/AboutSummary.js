@@ -18,7 +18,6 @@ function AboutSummary() {
               {<Link to="/about"></Link>}Learn More
             </button>
           </a>
-          {/* <button class="about-btn" to="/about">{<Link to="/about"></Link>}Learn More</button> */}
         </div>
         <div className="watch-container">
           <img src={watchbetter} alt="wdfsdfsf" />
