@@ -24,7 +24,7 @@ function Research() {
                 the apple watch.{" "}
               </p>
               <p>
-                The idea behind Rhythm is to detect whether the participant has
+                The idea behind Vito is to detect whether the participant has
                 COVID-19 before the symptoms are onset. Wearable devices can
                 measure physiological parameters such as heart rate, sleep
                 activity, heart rate variability (autonomic nervous system
@@ -32,7 +32,7 @@ function Research() {
               </p>
               <p>
                 By measuring the participants heart rate while they sleep,
-                engineers at Rhythm can detect through a period of time, whether
+                engineers at Vito can detect through a period of time, whether
                 the person has COVID before they show symptoms (asymptomatic).
               </p>
             </div>

@@ -28,7 +28,7 @@ function About() {
               that will keep people safer and healthier.
             </p>
             <p>
-              Rhythm is built to help people get more insight into their
+              Vito is built to help people get more insight into their
               personal well being and help individuals keep their communities
               safe.
             </p>
