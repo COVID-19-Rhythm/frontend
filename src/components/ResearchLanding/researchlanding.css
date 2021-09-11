@@ -1,0 +1,79 @@
+.researchlandingparent {
+  background: url(../images/woman.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+}
+
+.researchLandingParagraph {
+  background: rgba(45, 45, 45, 60%);
+  display: flex;
+  width: 50%;
+  height: inherit;
+}
+
+.researchLandingParagraph2 {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.researchLandingParagraph2 p {
+  /* border-style: solid; */
+  color: white;
+  font-size: 3vw;
+  text-align: left;
+  width: 75%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.realTiredOfThis {
+  display: flex;
+  flex-direction: column;
+}
+
+.stanfordimage {
+  object-fit: contain;
+  width: inherit;
+}
+
+.researchButton {
+  background-color: #056d73;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 1.75vw;
+
+  margin: 4px 2px;
+  /* opacity: 0.6; */
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.researchButton:hover {
+  background-color: #5e60ce;
+  color: white;
+  transition: width 2s linear 1s ease in;
+  cursor: pointer;
+}
+.researchButtonlink {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+}

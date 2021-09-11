@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+.navbar {
+    height:8rem;
+    background-color: rgba(203, 194, 194, 0.42)
+}
+.me-auto {
+    margin: auto;
+}
+a.nav-link{
+    padding-right:2em
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 1.5rem;
+    }
+   
+    
+}
+
+.navbar-link {
+    color: rgba(255,255,255,1);
+}

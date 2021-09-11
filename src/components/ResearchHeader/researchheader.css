@@ -1,0 +1,25 @@
+.covidImage {
+  background: url(../images/covid.jpg);
+  background-size: cover;
+}
+
+.covidDiv {
+  height: 100vh;
+  /* border-style: solid;
+  color: orange; */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.covidImage p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 4vw;
+  padding-right: 2vw;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

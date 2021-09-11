@@ -1,0 +1,12 @@
+.sourcesParent {
+  height: 100vh;
+  background: linear-gradient(#06538a, #56cfe1);
+}
+
+.sourcesParent h1 {
+  padding-top: 7vw;
+  font-size: 3vw;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}

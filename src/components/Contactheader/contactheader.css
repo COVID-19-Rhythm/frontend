@@ -1,0 +1,17 @@
+.contactHeader {
+  height: 100vh;
+  /* border-style: solid; */
+  background: url(../images/blue.png);
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactHeader h1 {
+  color: white;
+  font-size: 5vw;
+  font-family: "Poppins", sans-serif;
+  border-style: solid;
+  margin: 0 auto;
+}

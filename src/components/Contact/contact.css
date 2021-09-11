@@ -1,0 +1,115 @@
+.contact {
+  background: #dff1f2;
+  font-size: 60px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+
+.imageStyle {
+  width: 45%;
+  /* position: relative; */
+}
+
+.contactButton {
+  border: none;
+  background: #056d73;
+  color: white;
+  border-radius: 2vw;
+  padding: 0.2vw;
+  margin-top: 1vw;
+  font-size: 2vw;
+  width: 15vw;
+  font-family: "Poppins", sans-serif;
+}
+
+.formParent {
+  /* border-style: solid;
+  color: pink; */
+  height: inherit;
+  width: 100%;
+  padding-left: 2vw;
+}
+
+.contactForm {
+  font-size: 30px;
+  padding: 4vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: white;
+  border-style: solid;
+  height: 75%;
+  background: linear-gradient(rgba(5, 109, 115, 1), rgba(5, 109, 115, 29%));
+}
+.contactName {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactName input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* background: #f2f2f2; */
+  padding: 1vw;
+  border-radius: 1vw;
+  width: 25vw;
+  height: 5vh;
+  font-size: 2vw;
+}
+.contactEmail {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactEmail input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* background: #f2f2f2; */
+  padding: 1vw;
+  border-radius: 1vw;
+  width: 25vw;
+  height: 5vh;
+  font-size: 2vw;
+}
+
+.contactMessage {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactMessage textarea {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* background: #f2f2f2; */
+  padding: 1vw;
+  border-radius: 1vw;
+  width: 25vw;
+  height: 9vh;
+  font-size: 2vw;
+}
+
+.formStyle {
+  /* border-style: solid;
+  color: black; */
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+}
