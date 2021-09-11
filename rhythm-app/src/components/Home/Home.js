@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "../images/bird.png";
-import phone from "../images/phone2.png";
 import "./home.css";
 import Particles from "react-particles-js";
 function Home() {

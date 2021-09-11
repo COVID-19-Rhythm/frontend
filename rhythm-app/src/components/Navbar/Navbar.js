@@ -28,9 +28,9 @@ function NavBar() {
                 <Nav.Link href="/contact" style={NavbarStyles.navlink}>
                   Contact
                 </Nav.Link>
-                <Nav.Link href="/dashboard" style={NavbarStyles.navlink}>
+                {/* <Nav.Link href="/dashboard" style={NavbarStyles.navlink}>
                   Dashboard
-                </Nav.Link>
+                </Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </div>

@@ -38,7 +38,7 @@ function Research() {
             </div>
           </div>
           <div className="researchChild2">
-            <img src={watch} className="watchImage" />
+            <img src={watch} alt="Watch" className="watchImage" />
           </div>
         </div>
         <Sources />

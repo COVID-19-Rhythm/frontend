@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
-import { Row, Column, Container, Col, Image } from "react-bootstrap";
-import Navbar from "../Navbar/Navbar";
+import { Row, Container, Col, Image } from "react-bootstrap";
 import testing from "../images/microbiology.jpg";
 const aboutStyle = {
   container: {
