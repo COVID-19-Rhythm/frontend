@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c8b8136.chunk.css",
+    "main.js": "/static/js/main.01361a9c.chunk.js",
+    "main.js.map": "/static/js/main.01361a9c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.56df2b8c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.56df2b8c.js.map",
+    "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
+    "static/js/2.52f874a0.chunk.js": "/static/js/2.52f874a0.chunk.js",
+    "static/js/2.52f874a0.chunk.js.map": "/static/js/2.52f874a0.chunk.js.map",
+    "static/js/3.e238f94d.chunk.js": "/static/js/3.e238f94d.chunk.js",
+    "static/js/3.e238f94d.chunk.js.map": "/static/js/3.e238f94d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.6c8b8136.chunk.css.map": "/static/css/main.6c8b8136.chunk.css.map",
+    "static/js/2.52f874a0.chunk.js.LICENSE.txt": "/static/js/2.52f874a0.chunk.js.LICENSE.txt",
+    "static/media/bird.cdfe8479.png": "/static/media/bird.cdfe8479.png",
+    "static/media/bird2.ff88e66a.png": "/static/media/bird2.ff88e66a.png",
+    "static/media/contactheader.css": "/static/media/blue.ef7a6aab.png",
+    "static/media/researchheader.css": "/static/media/covid.8dd27130.jpg",
+    "static/media/iphonegold.6fda72a1.png": "/static/media/iphonegold.6fda72a1.png",
+    "static/media/microbiology.5f0750a3.jpg": "/static/media/microbiology.5f0750a3.jpg",
+    "static/media/watch.a8b7519c.png": "/static/media/watch.a8b7519c.png",
+    "static/media/watch_better.0b22240b.png": "/static/media/watch_better.0b22240b.png",
+    "static/media/researchlanding.css": "/static/media/woman.e0e6a209.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56df2b8c.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.52f874a0.chunk.js",
+    "static/css/main.6c8b8136.chunk.css",
+    "static/js/main.01361a9c.chunk.js"
+  ]
+}
